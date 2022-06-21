@@ -20,6 +20,8 @@ cd docs
 mongo
 root
 root
+
+http://49.232.6.131:8102/
 ```
 
 ```shell
