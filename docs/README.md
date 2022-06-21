@@ -12,6 +12,7 @@ mvn clean package
 cd docs/appsmith
 
 sudo docker-compose up -d
+sudo docker-compose down
 
 cd docs
 ./install.sh
