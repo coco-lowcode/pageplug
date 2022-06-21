@@ -2,3 +2,6 @@
 Appsmith requires ports 80 & 443 to be open. Please shut down any other service(s) that may be running on these ports.
 You can run appsmith on another port following this guide https://docs.appsmith.com/v/v1.2.1/troubleshooting-guide/deployment-errors
 ++++++++++++++++++++++++++++++++++++++++
+
+ERROR: for appsmith-internal-server  error pulling image configuration: Get "https://production.cloudflare.docker.com/registry-v2/docker/registry/v2/blobs/sha256/71/71dd4bd0644b1ce588f7a41eb50a15ec20095a0ca3a9656d8909b8130555e5e9/data?verify=1655798601-%2BqCLaiJ5vWy6JOTnEJXWmnZ0D7Y%3D": net/http: TLS handshake timeout
+ERROR: error pulling image configuration: Get "https://production.cloudflare.docker.com/registry-v2/docker/registry/v2/blobs/sha256/71/71dd4bd0644b1ce588f7a41eb50a15ec20095a0ca3a9656d8909b8130555e5e9/data?verify=1655798601-%2BqCLaiJ5vWy6JOTnEJXWmnZ0D7Y%3D": net/http: TLS handshake timeout
