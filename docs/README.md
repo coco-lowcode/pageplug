@@ -1,4 +1,5 @@
 ```shell
+# jdk 11
 cd app/server
 mvn clean package
 
