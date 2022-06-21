@@ -5,8 +5,8 @@ services:
     image: index.docker.io/cloudtogouser/pageplug-client:v1.5.15
     env_file: ./docker.env
     ports:
-      - "80:80"
-      - "443:443"
+      - "8102:80"
+      - "8103:443"
     volumes:
       - ./data/nginx/app.conf.template:/nginx.conf.template
       - ./data/certbot/conf:/etc/letsencrypt

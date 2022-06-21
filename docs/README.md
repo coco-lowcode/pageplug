@@ -9,6 +9,10 @@ sudo docker run -it --rm -v "$HOME/.m2":/root/.m2 -v "$PWD:/pageplug" maven:3.8.
 cd app/server
 mvn clean package
 
+cd docs/appsmith
+
+sudo docker-compose up -d
+
 cd docs
 ./install.sh
 
