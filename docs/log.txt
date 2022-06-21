@@ -1,0 +1,4 @@
++++++++++++ ERROR ++++++++++++++++++++++
+Appsmith requires ports 80 & 443 to be open. Please shut down any other service(s) that may be running on these ports.
+You can run appsmith on another port following this guide https://docs.appsmith.com/v/v1.2.1/troubleshooting-guide/deployment-errors
+++++++++++++++++++++++++++++++++++++++++
