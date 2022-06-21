@@ -1,6 +1,13 @@
 ```shell
+cd app/server
+mvn clean package
+
 cd docs
 ./install.sh
+
+mongo
+root
+root
 ```
 
 ```shell
