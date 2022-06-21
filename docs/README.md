@@ -22,6 +22,8 @@ root
 root
 
 http://49.232.6.131:8102/
+admin@7otech.com
+test2020
 ```
 
 ```shell
