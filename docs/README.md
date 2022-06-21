@@ -13,6 +13,11 @@ sudo docker cp git/apache-maven-3.8.1/conf/settings.xml 7f8f41a4b623:/usr/share/
 cd app/server
 mvn clean package -DskipTests
 
+sudo docker commit 7f8f41a4b623 yiluxiangbei/maven:3.8.6-openjdk-11
+sudo docker push yiluxiangbei/maven:3.8.6-openjdk-11
+
+sudo docker run -it --rm -v "$HOME/.m2":/root/.m2 -v "$PWD:/app" yiluxiangbei/maven:3.8.6-openjdk-11 bash
+
 cd docs/appsmith
 
 sudo docker-compose up -d
