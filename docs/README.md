@@ -11,7 +11,7 @@ vim /usr/share/maven/conf/settings.xml
 sudo docker cp git/apache-maven-3.8.1/conf/settings.xml 7f8f41a4b623:/usr/share/maven/conf/settings.xml
 
 cd app/server
-mvn clean package
+mvn clean package -DskipTests
 
 cd docs/appsmith
 
